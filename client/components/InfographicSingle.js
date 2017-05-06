@@ -1,12 +1,12 @@
 import React from 'react';
-import Photo from './Infographic';
-
+import Infographic from './Infographic';
 
 const InfographicSingle = React.createClass({
   render(){
     return(
         <div className="single-photo">
-        <Infographic i={i} infographic={infographic} {...this.props} />
+          <p>[InfographicSingle]</p>
+        {/* <Infographic i={i} infographic={infographic} {...this.props} /> */}
         </div>
     )
   }
