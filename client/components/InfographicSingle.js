@@ -3,10 +3,18 @@ import Infographic from './Infographic';
 
 const InfographicSingle = React.createClass({
   render(){
+    const { infographicId } = this.props.params;
+
+     // index of the infographic
+    const i = this.props.infographics.findIndex(
+      (infographic) => infographic.code === infographicId);
+
+    // get us the infographic
+    const infographic = this.props.infographics[i];
+
     return(
         <div className="single-photo">
-          <p>[InfographicSingle]</p>
-        {/* <Infographic i={i} infographic={infographic} {...this.props} /> */}
+        <Infographic i={i} infographic={infographic} {...this.props} />
         </div>
     )
   }

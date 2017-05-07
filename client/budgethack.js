@@ -18,7 +18,7 @@ const router = (
     <Router history={history}>
       <Route path="/" component={App}>
       <IndexRoute component={InfographicGrid}></IndexRoute>
-      <Route path="/view/:infographictId" component={InfographicSingle}></Route>
+      <Route path="/view/:infographicId" component={InfographicSingle}></Route>
       </Route>
     </Router>
   </Provider>
