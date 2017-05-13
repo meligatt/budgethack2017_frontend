@@ -1,14 +1,18 @@
 import React from 'react';
 import { Link } from 'react-router';
+import NavMenu from './nav-menu';
+import Header from './header';
+import Footer from './footer';
 
 const Main = React.createClass({
   render(){
+    console.log(this.props);
     return(
       <div>
-        <h1>
-        <Link to="/">Budget hack 2017</Link>
-        </h1>
+        <NavMenu/>
+        <Header/>
         {React.cloneElement(this.props.children, this.props)}
+        <Footer />
       </div>
     )
   }

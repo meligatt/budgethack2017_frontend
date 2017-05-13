@@ -7,10 +7,12 @@ import rootReducer from './reducers/index';
 
 
 import infographics from './data/infographics';
+import departments from './data/departments';
 
 //create an object for the default data
 const defaultState = {
-  infographics
+  infographics,
+  departments
 };
 
 const enhancers = compose(window.devToolsExtension ? window.devToolsExtension(): f => f);

@@ -5,7 +5,7 @@
   "scripts": {
     "build:webpack": "NODE_ENV=production webpack --config webpack.config.prod.js",
     "build": "npm run clean && npm run build:webpack",
-    "test": "NODE_ENV=production mocha './tests/**/*.spec.js' --compilers js:babel-core/register",
+    "test": "jest",
     "clean": "rimraf dist",
     "start": "node devServer.js",
     "tunnel": "browser-sync start --proxy localhost:7770 --tunnel wesbos"
@@ -44,6 +44,7 @@
     "redbox-react": "^1.2.3",
     "redux": "^3.5.2",
     "rimraf": "^2.5.2",
+    "sass-loader": "^6.0.5",
     "style-loader": "^0.13.1",
     "stylus": "^0.54.5",
     "stylus-loader": "^2.0.0",
@@ -52,8 +53,10 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "devDependencies": {
+    "d3": "^4.8.0",
     "expect": "^1.18.0",
     "expect-jsx": "^2.5.1",
+    "jest": "^20.0.0",
     "mocha": "^2.4.5",
     "react-addons-test-utils": "^15.0.2"
   }
