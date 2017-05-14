@@ -1,5 +1,5 @@
 import React from 'react';
-import Infographic from './Infographic';
+import Infographic from './infographic';
 
 const InfographicSingle = React.createClass({
   render(){

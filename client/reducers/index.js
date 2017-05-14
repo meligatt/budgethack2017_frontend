@@ -5,6 +5,9 @@ import infographics from './infographics';
 import departments from './departments';
 
 const rootReducer = combineReducers({
-  infographics, departments, routing: routerReducer });
+  infographics,
+  departments,
+  routing: routerReducer
+});
 
 export default rootReducer;
