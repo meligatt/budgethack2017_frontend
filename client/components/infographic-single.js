@@ -1,5 +1,6 @@
 import React from 'react';
 import Infographic from './infographic';
+import TextCollapsible from './text-collapsible';
 
 const InfographicSingle = React.createClass({
   render(){
@@ -14,7 +15,11 @@ const InfographicSingle = React.createClass({
 
     return(
         <div className="single-photo">
-        <Infographic i={i} infographic={infographic} {...this.props} />
+          <div>
+            [AN INFOGRPHIC HERE]
+          </div>
+        {/* <Infographic i={i} infographic={infographic} {...this.props} /> */}
+        <TextCollapsible />
         </div>
     )
   }

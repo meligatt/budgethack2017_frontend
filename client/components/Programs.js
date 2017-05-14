@@ -10,7 +10,7 @@ const Programs = React.createClass({
         <h1>
           <Link to="/">Programs</Link>
         </h1>
-        <div className="photo-grid" style={{border:'1px solid red'}}>
+        <div className="photo-grid">
           <List  items = { this.props.infographics}/>
         </div>
       </div>

@@ -1,19 +1,21 @@
 .navBar {
-  background-color: #53354A;
+  background-color: #e5e5e5;
   position: relative;
   min-width: 100%;
 }
 
 .logo {
-  background-color: #E84545;
   display: inline-block;
   height: 45px;
   margin: 1em 0;
   width: 200px;
-  color: white;
+  color: #494949;
   font-size: 2em;
   text-align: center;
-
+}
+.logo a {
+  color: #494949;
+  text-decoration: none;
 }
 
 .wrapper {
@@ -30,7 +32,7 @@ nav {
     width: 50%;
 
     a {
-      color: #E84545;
+      color: #494949;
       text-decoration: none;
       transition: all .5s ease;
       font-size: 2em;
