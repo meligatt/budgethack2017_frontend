@@ -4,12 +4,12 @@ import { render } from 'react-dom';
 import css from './styles/style.styl';
 
 // Components
-import App from './components/App';
-// import InfographicSingle from './components/InfographicSingle';
-// import InfographicGrid from './components/InfographicGrid';
+import App from './components/app';
+// import InfographicSingle from './components/infographicSingle';
+// import InfographicGrid from './components/infographicGrid';
 
-import Departments from './components/Departments';
-import Programs from './components/Programs';
+import Departments from './components/departments';
+import Programs from './components/programs';
 
 
 // import react router deps
