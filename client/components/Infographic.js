@@ -1,7 +1,7 @@
 import React from 'react';
 import {Link} from 'react-router';
 import * as d3 from 'd3';
-import TextCollapsible from './text-collapsible';
+
 
 const Infographic = React.createClass({
   render() {
@@ -25,7 +25,7 @@ const Infographic = React.createClass({
               </button>
             </div>
           </figcaption>
-          <TextCollapsible />
+
         </figure>
       )
   }

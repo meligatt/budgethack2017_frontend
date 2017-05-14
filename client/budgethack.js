@@ -5,7 +5,7 @@ import css from './styles/style.styl';
 
 // Components
 import App from './components/app';
-// import InfographicSingle from './components/infographicSingle';
+import InfographicSingle from './components/infographic-single';
 // import InfographicGrid from './components/infographicGrid';
 
 import Departments from './components/departments';
@@ -31,6 +31,7 @@ const router = (
       <Route path="/" component={App}>
         <IndexRoute component={Departments}></IndexRoute>
         <Route path="/programs" component={Programs}></Route>
+        <Route path="/infographic" component={InfographicSingle}></Route>
       </Route>
     </Router>
   </Provider>
